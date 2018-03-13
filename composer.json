@@ -1,0 +1,29 @@
+{
+  "name": "objective-php/filter",
+  "description": "Conditional filter engine",
+  "type": "library",
+  "keywords": [
+    "filter", "objective php"
+  ],
+  "homepage": "https://github.com/objective-php/filter",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Gauthier 'Rusty' Delamarre",
+      "email": "gauthier@objective-php.org",
+      "role": "lead"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "objective-php/primitives": "^1.3",
+    "codeception/codeception": "^2.4"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "ObjectivePHP\\Filter\\": "src/"
+    }
+  }
+}
